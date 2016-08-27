@@ -1,0 +1,8 @@
+/* Presets we put in here will be run on build, preset React
+* will take our JSX and transform it to regular javascript
+*/
+{
+  "presets": [
+    "react"
+  ]
+}
