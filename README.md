@@ -21,6 +21,17 @@ The app can be started with ```npm run start```
 
 To Package the app use ```npm run production```
 
+## Development Environment
+Atom Editor set up to use following plugins:
+* react
+* linter
+* linter-eslint
+* seti-icons
+* platformio-ide-terminal
+* minimap
+* keyboard-localization
+* atom beautify
+
 ## Project requirements List
 * Fully responsive
 * Authentication for admins

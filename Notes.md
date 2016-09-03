@@ -37,3 +37,12 @@ Fill out a boilerplate index.html file (Atom: html + TAB) with a div with id="ap
 
 Webpack will bundle our code into production ready, minified js
 ```touch webpack.config.js```
+
+
+## Terms
+
+A pure function:
+* Doesn't depend on variables outside its scope
+* Doesn't modify variables outside its scope
+* Doesn't make Ajax requests
+* Doesn't manipulate the DOM
