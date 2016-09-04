@@ -20,11 +20,17 @@ module.exports = {
         filename: 'index_bundle.js'
     },
     module: {
-        loaders: [{
-            test: /\.js$/,
-            exlude: /node_modules/,
-            loader: 'babel-loader'
-        }]
+        loaders: [
+            {
+                test: /\.js$/,
+                exlude: /node_modules/,
+                loader: 'babel-loader'
+            },
+            // Used for Bootstrap Less Source Files
+            { test: /\.less/, loader: 'style!css!less' },
+            // Used for Bootstrap Glyphicon Fonts
+            { test: /\.(woff2|woff|ttf|svg|eot)$/, loader: 'file' }
+        ]
     },
     plugins: [HtmlWebpackPluginConfig]
 };
